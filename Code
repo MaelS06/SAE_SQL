@@ -48,7 +48,7 @@ INSERT INTO `absence` VALUES
 (1,1,1,1,'Certificat medical'),
 (2,2,1,0,NULL),
 (3,3,3,1,'Convocation administrative'),
-(4,5,5,0,NULL);
+(4,1,5,0,NULL);
 
 /*!40000 ALTER TABLE `absence` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -156,7 +156,7 @@ LOCK TABLES `etudiant` WRITE;
 INSERT INTO `etudiant` VALUES
 (1,'SASORITH','Mael','mael.sasorith@uha.fr','mael.jpg',2),
 (2,'KUNEGEL','Nicolas','nicolas.kunegel@uha.fr','nicolas.jpg',1),
-(4,'AKAKCA','Hakan','hakan.akakca@uha.fr','hakan.jpg',1);
+(3,'AKAKCA','Hakan','hakan.akakca@uha.fr','hakan.jpg',1);
 
 /*!40000 ALTER TABLE `etudiant` ENABLE KEYS */;
 UNLOCK TABLES;
